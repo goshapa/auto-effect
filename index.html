@@ -1,0 +1,408 @@
+<!doctype html>
+<html lang="uz">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Auto Effect — Toshkentdagi detailing studiya</title>
+<meta name="description" content="Auto Effect Detailing Studio, Toshkent, Tinchlik 8. Broneplyonka, tonirovka, polirovka, keramika, salon laminatsiyasi va ximchistka. 7 yillik tajriba, 5000+ mijoz.">
+<meta property="og:title" content="Auto Effect Detailing Studio">
+<meta property="og:description" content="Yuqori sifat, o‘zgacha hissiyot. Toshkent, Tinchlik 8.">
+<meta property="og:image" content="assets/hero.jpg">
+<script>
+  (function () {
+    var saved = null;
+    try { saved = localStorage.getItem("ae-lang"); } catch (e) {}
+    var nav = (navigator.language || "").toLowerCase();
+    document.documentElement.setAttribute("lang", saved || (nav.indexOf("ru") === 0 ? "ru" : "uz"));
+  })();
+</script>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Golos+Text:wght@400;500;600;700&family=JetBrains+Mono:wght@400;500&family=Sofia+Sans+Extra+Condensed:wght@800&display=swap">
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+<header class="top">
+  <div class="wrap top-in">
+    <a class="logo" href="#top" aria-label="Auto Effect">Aut<b>o</b> effect</a>
+    <nav class="nav">
+      <a href="#film"><span lang="uz">Broneplyonka</span><span lang="ru">Бронеплёнка</span></a>
+      <a href="#services"><span lang="uz">Xizmatlar</span><span lang="ru">Услуги</span></a>
+      <a href="#works"><span lang="uz">Ishlar</span><span lang="ru">Работы</span></a>
+      <a href="#contact"><span lang="uz">Manzil</span><span lang="ru">Адрес</span></a>
+    </nav>
+    <a class="top-tel" href="tel:+998937000550">+998 93 700 05 50</a>
+    <div class="lang" role="group" aria-label="Til / Язык">
+      <button type="button" data-lang="uz" aria-pressed="false">UZ</button>
+      <button type="button" data-lang="ru" aria-pressed="false">RU</button>
+    </div>
+  </div>
+</header>
+
+<main id="top">
+
+<section class="hero">
+  <img class="hero-img" src="assets/hero.jpg" alt="">
+  <div class="wrap hero-in">
+    <h1>
+      <span lang="uz"><i>Yuqori sifat</i><i>O‘zgacha hissiyot</i></span>
+      <span lang="ru"><i>Высокое качество</i><i>Другие ощущения</i></span>
+    </h1>
+    <div class="hero-foot">
+      <p class="hero-lead">
+        <span lang="uz">Toshkentdagi detailing studiya. Kuzovni himoya qilamiz, oynalarni tonirovka qilamiz, bo‘yoq va salonni yangidek holatga qaytaramiz.</span>
+        <span lang="ru">Детейлинг-студия в Ташкенте. Защищаем кузов, тонируем стёкла, возвращаем блеск краске и свежий вид салону.</span>
+      </p>
+      <div class="hero-cta">
+        <a class="btn btn-primary" href="#contact"><span lang="uz">Narxini bilish</span><span lang="ru">Узнать цену</span></a>
+        <a class="btn btn-ghost" href="#works"><span lang="uz">Ishlarimiz</span><span lang="ru">Наши работы</span></a>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="facts">
+  <ul class="wrap">
+    <li><b>7</b><span lang="uz">yillik tajriba</span><span lang="ru">лет опыта</span></li>
+    <li><b>5000+</b><span lang="uz">mijozlar</span><span lang="ru">клиентов</span></li>
+    <li><b>25K</b><span lang="uz">Instagram obunachilari</span><span lang="ru">подписчиков в Instagram</span></li>
+    <li><b>Ultrafit</b><span lang="uz">rasmiy ambassadori</span><span lang="ru">амбассадор бренда</span></li>
+  </ul>
+</section>
+
+<section class="band" id="film">
+  <div class="wrap film-grid">
+    <div class="film-copy">
+      <p class="label"><span lang="uz">To‘liq kuzov broneplyonkasi</span><span lang="ru">Бронеплёнка на весь кузов</span></p>
+      <h2><span lang="uz">Himoyani mikronda o‘lchang</span><span lang="ru">Защита измеряется в микронах</span></h2>
+      <div class="film-tabs" role="group" aria-label="mkm">
+        <button type="button" data-um="160" aria-pressed="false">160 µm</button>
+        <button type="button" data-um="210" aria-pressed="true">210 µm</button>
+        <button type="button" data-um="300" aria-pressed="false">300 µm</button>
+      </div>
+      <p class="film-note" data-film-note="160" hidden>
+        <span lang="uz">Ko‘pchilik ustaxonalar ishlatadigan qalinlik.</span>
+        <span lang="ru">Такую толщину ставит большинство мастерских.</span>
+      </p>
+      <p class="film-note" data-film-note="210">
+        <span lang="uz">Bizning asosiy plyonkamiz: Proline Diamond seriyasi. Sarg‘ayishga chidamli, yelimi bo‘yoqda qolmaydi.</span>
+        <span lang="ru">Наша основная плёнка: серия Proline Diamond. Не желтеет и не оставляет клей на краске.</span>
+      </p>
+      <p class="film-note" data-film-note="300" hidden>
+        <span lang="uz">Assortimentimizdagi eng qalin plyonka. Zarbaga eng yuqori chidamlilik.</span>
+        <span lang="ru">Самая толстая плёнка в нашем ассортименте. Максимальная стойкость к ударам.</span>
+      </p>
+      <ul class="film-list">
+        <li><span lang="uz">Suv yopishmaydi</span><span lang="ru">Вода не задерживается</span></li>
+        <li><span lang="uz">Tirnalsa, o‘zi tiklanadi</span><span lang="ru">Мелкие царапины затягиваются сами</span></li>
+        <li><span lang="uz">Har bir detal qo‘lda ishlanadi</span><span lang="ru">Каждая деталь оклеивается вручную</span></li>
+        <li><span lang="uz">Ish va material uchun kafolat</span><span lang="ru">Гарантия на работу и материал</span></li>
+      </ul>
+      <div class="price">
+        <b>700–800$</b>
+        <span lang="uz">to‘liq kuzov, 210 µm. Aniq narx avtomobil rusumiga bog‘liq.</span>
+        <span lang="ru">весь кузов, 210 µm. Точная цена зависит от модели.</span>
+      </div>
+    </div>
+
+    <figure class="gauge" id="gauge" style="margin:0">
+      <figcaption class="gauge-cap">
+        <span lang="uz">Kuzov kesimi, haqiqiy nisbatda</span><span lang="ru">Разрез кузова, реальные пропорции</span>
+      </figcaption>
+      <div class="layer layer-film"><span lang="uz">Broneplyonka</span><span lang="ru">Бронеплёнка</span><span><span id="film-value">210</span> µm</span></div>
+      <div class="layer layer-clear"><span lang="uz">Zavod laki</span><span lang="ru">Заводской лак</span><span>≈ 40 µm</span></div>
+      <div class="layer layer-base"><span lang="uz">Rang qatlami</span><span lang="ru">Цветной слой</span><span>≈ 15 µm</span></div>
+      <div class="layer layer-primer"><span lang="uz">Grunt</span><span lang="ru">Грунт</span><span>≈ 25 µm</span></div>
+      <div class="layer layer-metal"><span lang="uz">Metall</span><span lang="ru">Металл</span></div>
+      <p class="gauge-foot">
+        <span lang="uz">Lak va grunt qalinligi yengil avtomobillar uchun o‘rtacha ko‘rsatkich.</span>
+        <span lang="ru">Толщина лака и грунта указана средняя для легковых автомобилей.</span>
+      </p>
+    </figure>
+  </div>
+</section>
+
+<section class="band services" id="services">
+  <div class="wrap">
+    <p class="label"><span lang="uz">Bitta manzilda</span><span lang="ru">В одном месте</span></p>
+    <h2><span lang="uz">Xizmatlar</span><span lang="ru">Услуги</span></h2>
+    <div class="serv-grid">
+      <ul class="serv-list">
+
+        <li class="serv-item on">
+          <button class="serv-btn" type="button" aria-expanded="true">
+            <span><i lang="uz" style="font-style:normal">Broneplyonka</i><i lang="ru" style="font-style:normal">Бронеплёнка</i></span>
+            <em>Proline · 210 µm</em>
+          </button>
+          <div class="serv-body">
+            <img src="assets/s-ppf.jpg" alt="Broneplyonka" loading="lazy">
+            <p lang="uz">To‘liq kuzov yoki faqat old qismi: kapot, fara va krilo. Tosh, tirnalish va noto‘g‘ri moykadan himoya qiladi. Murakkab avtomobillarda detallarni yechmasdan, kompyuterda kesilgan andoza bilan ishlaymiz.</p>
+            <p lang="ru">Весь кузов или только перед: капот, фары и крылья. Защита от камней, царапин и неаккуратной мойки. На сложных автомобилях работаем по компьютерным лекалам, без снятия деталей.</p>
+            <ul class="chips"><li>Proline Diamond</li><li>Ultrafit</li><li>Carbins</li><li>160–300 µm</li></ul>
+          </div>
+        </li>
+
+        <li class="serv-item">
+          <button class="serv-btn" type="button" aria-expanded="false">
+            <span><i lang="uz" style="font-style:normal">Tonirovka</i><i lang="ru" style="font-style:normal">Тонировка</i></span>
+            <em>Ultrafit</em>
+          </button>
+          <div class="serv-body">
+            <img src="assets/s-tint.jpg" alt="Tonirovka" loading="lazy">
+            <p lang="uz">Krugovoy yoki alohida oynalar. Salon yozda qizimaydi, konditsioner kamroq ishlaydi, ko‘zga yorug‘ urmaydi. Premium plyonkalar UV nurlarining 99% ini to‘sadi.</p>
+            <p lang="ru">Круговая или на отдельные стёкла. Салон меньше нагревается летом, кондиционер работает легче, солнце не слепит. Премиальные плёнки задерживают 99% ультрафиолета.</p>
+            <ul class="chips"><li>Ultrafit Vivid Forte</li><li>Ultrafit Vivid Signature</li><li>Ceramic</li></ul>
+          </div>
+        </li>
+
+        <li class="serv-item">
+          <button class="serv-btn" type="button" aria-expanded="false">
+            <span><i lang="uz" style="font-style:normal">Solnsa-zashita</i><i lang="ru" style="font-style:normal">Солнцезащита</i></span>
+            <em><span lang="uz">Lobovoy</span><span lang="ru">Лобовое</span></em>
+          </button>
+          <div class="serv-body">
+            <img src="assets/s-sun.jpg" alt="Solnsa-zashita" loading="lazy">
+            <p lang="uz">Lobovoy oyna va panoramaga shaffof quyoshdan himoya: ko‘k antiblik va Kristall plyonkalar. Lobovoyga broneplyonka ham qo‘yamiz, toshdan himoya qiladi.</p>
+            <p lang="ru">Прозрачная защита от солнца на лобовое и панораму: синий антиблик и плёнки Kristall. Ставим и бронеплёнку на лобовое, она принимает удары камней.</p>
+            <ul class="chips"><li>Antiblik</li><li>Kristall</li></ul>
+          </div>
+        </li>
+
+        <li class="serv-item">
+          <button class="serv-btn" type="button" aria-expanded="false">
+            <span><i lang="uz" style="font-style:normal">Polirovka</i><i lang="ru" style="font-style:normal">Полировка</i></span>
+            <em><span lang="uz">3 etap</span><span lang="ru">3 этапа</span></em>
+          </button>
+          <div class="serv-body">
+            <img src="assets/s-polish.jpg" alt="Polirovka" loading="lazy">
+            <p lang="uz">Mayda tirnalishlarni olib tashlaymiz, rangni chuqur qilamiz, lakka yaltiroqni qaytaramiz. Qora rangda natija ayniqsa yaqqol ko‘rinadi.</p>
+            <p lang="ru">Убираем мелкие царапины, делаем цвет глубже, возвращаем лаку блеск. На чёрных автомобилях разница видна особенно хорошо.</p>
+          </div>
+        </li>
+
+        <li class="serv-item">
+          <button class="serv-btn" type="button" aria-expanded="false">
+            <span><i lang="uz" style="font-style:normal">Keramika</i><i lang="ru" style="font-style:normal">Керамика</i></span>
+            <em>Ceramic coat</em>
+          </button>
+          <div class="serv-body">
+            <img src="assets/s-ceramic.jpg" alt="Keramika" loading="lazy">
+            <p lang="uz">Kuzovga kir va chang kamroq yopishadi, yomg‘irdan keyin ham avtomobil yaltirab turadi. Kafolat 6 oydan 1 yilgacha.</p>
+            <p lang="ru">Грязь и пыль меньше держатся на кузове, автомобиль блестит и после дождя. Гарантия от 6 месяцев до 1 года.</p>
+          </div>
+        </li>
+
+        <li class="serv-item">
+          <button class="serv-btn" type="button" aria-expanded="false">
+            <span><i lang="uz" style="font-style:normal">Salon laminatsiyasi</i><i lang="ru" style="font-style:normal">Ламинация салона</i></span>
+            <em>Full</em>
+          </button>
+          <div class="serv-body">
+            <img src="assets/s-interior.jpg" alt="Salon laminatsiyasi" loading="lazy">
+            <p lang="uz">To‘liq salon va paroglar. Yaltiroq panellar, ekran va plastik yangi avtomobildagidek qoladi.</p>
+            <p lang="ru">Весь салон и пороги. Глянцевые панели, экраны и пластик остаются как в новом автомобиле.</p>
+          </div>
+        </li>
+
+        <li class="serv-item">
+          <button class="serv-btn" type="button" aria-expanded="false">
+            <span><i lang="uz" style="font-style:normal">Ximchistka</i><i lang="ru" style="font-style:normal">Химчистка</i></span>
+            <em><span lang="uz">Salon, motor</span><span lang="ru">Салон, мотор</span></em>
+          </button>
+          <div class="serv-body">
+            <img src="assets/s-clean.jpg" alt="Ximchistka" loading="lazy">
+            <p lang="uz">To‘liq salon ximchistkasi va motor yuvish. Maxsus kimyo kir, dog‘ va changni ketkazadi.</p>
+            <p lang="ru">Полная химчистка салона и мойка мотора. Специальная химия убирает грязь, пятна и пыль.</p>
+          </div>
+        </li>
+
+        <li class="serv-item">
+          <button class="serv-btn" type="button" aria-expanded="false">
+            <span><i lang="uz" style="font-style:normal">Shumoizolyatsiya</i><i lang="ru" style="font-style:normal">Шумоизоляция</i></span>
+            <em>STP</em>
+          </button>
+          <div class="serv-body">
+            <img src="assets/s-noise.jpg" alt="Shumoizolyatsiya" loading="lazy">
+            <p lang="uz">STP materiallari bilan. Saloningizdagi begona tovushlar va yo‘l shovqini kamayadi.</p>
+            <p lang="ru">На материалах STP. В салоне становится меньше посторонних звуков и шума дороги.</p>
+          </div>
+        </li>
+
+      </ul>
+      <div class="serv-view"><img id="serv-view" src="assets/s-ppf.jpg" alt="Broneplyonka"></div>
+    </div>
+  </div>
+</section>
+
+<section class="band" id="works">
+  <div class="wrap">
+    <div class="works-head">
+      <div>
+        <p class="label"><span lang="uz">So‘nggi avtomobillar</span><span lang="ru">Последние автомобили</span></p>
+        <h2><span lang="uz">Ishlarimiz</span><span lang="ru">Наши работы</span></h2>
+      </div>
+      <a class="btn btn-ghost" href="https://www.instagram.com/auto_effect/" target="_blank" rel="noopener"><span lang="uz">Instagramda hammasi</span><span lang="ru">Все работы в Instagram</span></a>
+    </div>
+    <div class="works-grid" id="works-grid">
+      <a class="work big" href="https://www.instagram.com/reel/DeO9IknNTlE/" target="_blank" rel="noopener">
+        <img src="assets/work-09.jpg" alt="Leapmotor C11" loading="lazy">
+        <div><b>Leapmotor C11</b>
+          <span lang="uz">To‘liq kuzov broneplyonka, lobovoy va panorama himoyasi. 17 000 000 so‘m</span>
+          <span lang="ru">Бронеплёнка на весь кузов, защита лобового и панорамы. 17 000 000 сум</span></div>
+      </a>
+      <a class="work" href="https://www.instagram.com/reel/Ddqcll1NLfi/" target="_blank" rel="noopener">
+        <img src="assets/work-11.jpg" alt="BMW i5" loading="lazy">
+        <div><b>BMW i5</b>
+          <span lang="uz">Old qism bron, tonirovka, laminatsiya</span>
+          <span lang="ru">Бронь переда, тонировка, ламинация</span></div>
+      </a>
+      <a class="work" href="https://www.instagram.com/reel/Dd8gsYeNEZF/" target="_blank" rel="noopener">
+        <img src="assets/work-10.jpg" alt="Dongfeng 008" loading="lazy">
+        <div><b>Dongfeng 008</b>
+          <span lang="uz">Bron, solnsa-zashita, laminatsiya</span>
+          <span lang="ru">Бронь, солнцезащита, ламинация</span></div>
+      </a>
+      <a class="work" href="https://www.instagram.com/reel/DehEVCbNBQ4/" target="_blank" rel="noopener">
+        <img src="assets/work-07.jpg" alt="Chevrolet Malibu XL" loading="lazy">
+        <div><b>Malibu XL</b>
+          <span lang="uz">3 etapli polirovka, tonirovka, ximchistka</span>
+          <span lang="ru">Полировка в 3 этапа, тонировка, химчистка</span></div>
+      </a>
+      <a class="work" href="https://www.instagram.com/reel/DetjY2ZtGH6/" target="_blank" rel="noopener">
+        <img src="assets/work-05.jpg" alt="Zeekr 009" loading="lazy">
+        <div><b>Zeekr 009</b>
+          <span lang="uz">To‘liq salon ximchistkasi</span>
+          <span lang="ru">Полная химчистка салона</span></div>
+      </a>
+      <a class="work" href="https://www.instagram.com/reel/DdY7hT_t8hU/" target="_blank" rel="noopener">
+        <img src="assets/work-12.jpg" alt="Polirovka" loading="lazy">
+        <div><b><span lang="uz">Qora kapot</span><span lang="ru">Чёрный капот</span></b>
+          <span lang="uz">Polirovkadan keyin</span>
+          <span lang="ru">После полировки</span></div>
+      </a>
+      <a class="work" href="https://www.instagram.com/reel/DcyACE8tl2s/" target="_blank" rel="noopener">
+        <img src="assets/work-01.jpg" alt="To‘liq kuzov bron" loading="lazy">
+        <div><b>210 µm</b>
+          <span lang="uz">To‘liq kuzov broneplyonka</span>
+          <span lang="ru">Бронеплёнка на весь кузов</span></div>
+      </a>
+    </div>
+  </div>
+</section>
+
+<section class="band system">
+  <div class="wrap sys-grid">
+    <div class="sys-copy">
+      <p class="label"><span lang="uz">Og‘zaki kafolat emas</span><span lang="ru">Гарантия на словах не считается</span></p>
+      <h2><span lang="uz">Har bir ish yozib boriladi</span><span lang="ru">Каждая работа записана</span></h2>
+      <ol class="sys-steps" style="margin:0;padding:0;list-style:none">
+        <li><span lang="uz">Avtomobilingizda bajarilgan ishlar va materiallar tizimimizga va Telegram botimizga kiritiladi.</span><span lang="ru">Работы и материалы по вашему автомобилю заносятся в нашу систему и Telegram-бот.</span></li>
+        <li><span lang="uz">Narx va kafolat ma’lumotlari SMS orqali telefoningizga keladi.</span><span lang="ru">Цена и условия гарантии приходят вам по SMS.</span></li>
+        <li><span lang="uz">Har bir tashrif uchun keyingi safar ishlatish mumkin bo‘lgan bonus olasiz.</span><span lang="ru">За каждый визит вы получаете бонусы на следующие работы.</span></li>
+      </ol>
+    </div>
+    <div class="ticket" aria-label="Namuna">
+      <div class="ticket-top"><span>AUTO EFFECT</span><span lang="uz">Namuna</span><span lang="ru">Образец</span></div>
+      <h3><span lang="uz">Kafolat taloni</span><span lang="ru">Гарантийный талон</span></h3>
+      <dl>
+        <div><dt><span lang="uz">Avtomobil</span><span lang="ru">Автомобиль</span></dt><dd>BMW i5</dd></div>
+        <div><dt><span lang="uz">Ish</span><span lang="ru">Работа</span></dt><dd><span lang="uz">Old qism bron</span><span lang="ru">Бронь переда</span></dd></div>
+        <div><dt><span lang="uz">Material</span><span lang="ru">Материал</span></dt><dd>Proline Diamond, 210 µm</dd></div>
+        <div><dt><span lang="uz">Kafolat</span><span lang="ru">Гарантия</span></dt><dd><span lang="uz">SMS orqali</span><span lang="ru">по SMS</span></dd></div>
+        <div><dt><span lang="uz">Bonus</span><span lang="ru">Бонус</span></dt><dd><span lang="uz">hisobingizda</span><span lang="ru">на вашем счёте</span></dd></div>
+      </dl>
+      <small><span lang="uz">Bu talon qanday ko‘rinishini tushuntirish uchun namuna.</span><span lang="ru">Пример для наглядности, не настоящий документ.</span></small>
+    </div>
+  </div>
+</section>
+
+<section class="band">
+  <div class="wrap">
+    <h2><span lang="uz">Ustalar bizdan o‘rganadi</span><span lang="ru">У нас учатся мастера</span></h2>
+    <div class="trust-grid">
+      <div>
+        <h3><span lang="uz">Ultrafit ambassadori</span><span lang="ru">Амбассадор Ultrafit</span></h3>
+        <p lang="uz">Brendning plyonkalarini o‘zimiz test qilamiz va natijani videoda ko‘rsatamiz.</p>
+        <p lang="ru">Сами тестируем плёнки бренда и показываем результат на видео.</p>
+      </div>
+      <div>
+        <h3><span lang="uz">Treninglar</span><span lang="ru">Тренинги</span></h3>
+        <p lang="uz">Tonirovka va broneplyonka ustalari uchun amaliy treninglar o‘tkazamiz, jumladan Qarshida. Joy band qilish uchun yozing.</p>
+        <p lang="ru">Проводим практические тренинги для мастеров по тонировке и бронеплёнке, в том числе в Карши. Напишите, чтобы забронировать место.</p>
+      </div>
+      <div>
+        <h3><span lang="uz">120 tadan 4-o‘rin</span><span lang="ru">4 место из 120</span></h3>
+        <p lang="uz">Musobaqada 120 ta ishtirokchi orasida 4-o‘rinni egalladik.</p>
+        <p lang="ru">Заняли 4 место среди 120 участников соревнования.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="band contact" id="contact">
+  <div class="wrap contact-grid">
+    <div class="contact-info">
+      <div>
+        <p class="label"><span lang="uz">Avval qo‘ng‘iroq qiling</span><span lang="ru">Позвоните перед визитом</span></p>
+        <h2><span lang="uz">Bizga keling</span><span lang="ru">Приезжайте</span></h2>
+      </div>
+      <a class="big-tel" href="tel:+998937000550">+998 93 700 05 50</a>
+      <dl class="info">
+        <div><dt><span lang="uz">Manzil</span><span lang="ru">Адрес</span></dt><dd><span lang="uz">Toshkent sh., Tinchlik 8</span><span lang="ru">Ташкент, Тинчлик 8</span></dd></div>
+        <div><dt><span lang="uz">Mo‘ljal</span><span lang="ru">Ориентир</span></dt><dd><span lang="uz">Tinchlik metrosi, Persia magazin</span><span lang="ru">метро Тинчлик, магазин Persia</span></dd></div>
+        <div><dt><span lang="uz">Ish vaqti</span><span lang="ru">Часы</span></dt><dd><span lang="uz">10:00 dan 21:00 gacha, jonli navbat</span><span lang="ru">с 10:00 до 21:00, живая очередь</span></dd></div>
+        <div><dt><span lang="uz">Vizov</span><span lang="ru">Выезд</span></dt><dd><span lang="uz">Usta sizning joyingizga boradi</span><span lang="ru">Мастер приедет к вам</span></dd></div>
+      </dl>
+      <div class="links">
+        <a href="https://yandex.uz/maps/?text=Auto%20Effect%20Detailing%20Studio%20Toshkent" target="_blank" rel="noopener"><span lang="uz">Xaritada ochish</span><span lang="ru">Открыть на карте</span></a>
+        <a href="https://www.instagram.com/auto_effect/" target="_blank" rel="noopener">Instagram</a>
+        <a href="https://t.me/AutoEffect1" target="_blank" rel="noopener"><span lang="uz">Telegram kanal</span><span lang="ru">Telegram-канал</span></a>
+      </div>
+    </div>
+
+    <form id="order" novalidate>
+      <h3><span lang="uz">Narxini bilib oling</span><span lang="ru">Узнайте цену</span></h3>
+      <div class="field">
+        <label for="car-model"><span lang="uz">Avtomobil rusumi</span><span lang="ru">Марка и модель</span></label>
+        <input id="car-model" type="text" autocomplete="off" data-ph-uz="Masalan, BYD Song Plus" data-ph-ru="Например, BYD Song Plus" placeholder="Masalan, BYD Song Plus">
+        <p class="err" id="order-error" role="alert"></p>
+      </div>
+      <fieldset>
+        <legend><span lang="uz">Nima kerak?</span><span lang="ru">Что нужно?</span></legend>
+        <div class="picks">
+          <label><input type="checkbox" name="service"><span><i lang="uz" style="font-style:normal">Broneplyonka</i><i lang="ru" style="font-style:normal">Бронеплёнка</i></span></label>
+          <label><input type="checkbox" name="service"><span><i lang="uz" style="font-style:normal">Tonirovka</i><i lang="ru" style="font-style:normal">Тонировка</i></span></label>
+          <label><input type="checkbox" name="service"><span><i lang="uz" style="font-style:normal">Solnsa-zashita</i><i lang="ru" style="font-style:normal">Солнцезащита</i></span></label>
+          <label><input type="checkbox" name="service"><span><i lang="uz" style="font-style:normal">Polirovka</i><i lang="ru" style="font-style:normal">Полировка</i></span></label>
+          <label><input type="checkbox" name="service"><span><i lang="uz" style="font-style:normal">Keramika</i><i lang="ru" style="font-style:normal">Керамика</i></span></label>
+          <label><input type="checkbox" name="service"><span><i lang="uz" style="font-style:normal">Salon laminatsiyasi</i><i lang="ru" style="font-style:normal">Ламинация салона</i></span></label>
+          <label><input type="checkbox" name="service"><span><i lang="uz" style="font-style:normal">Ximchistka</i><i lang="ru" style="font-style:normal">Химчистка</i></span></label>
+          <label><input type="checkbox" name="service"><span><i lang="uz" style="font-style:normal">Shumoizolyatsiya</i><i lang="ru" style="font-style:normal">Шумоизоляция</i></span></label>
+        </div>
+      </fieldset>
+      <div class="form-actions">
+        <button class="btn btn-primary" type="submit"><span lang="uz">Telegramda yozish</span><span lang="ru">Написать в Telegram</span></button>
+        <button class="btn btn-ghost" type="button" id="order-copy"><span lang="uz">Matnni nusxalash</span><span lang="ru">Скопировать текст</span></button>
+      </div>
+    </form>
+  </div>
+</section>
+
+</main>
+
+<footer class="foot">
+  <div class="wrap foot-in">
+    <span>Auto Effect Detailing Studio</span>
+    <span lang="uz">Yuqori sifat, o‘zgacha hissiyot</span><span lang="ru">Высокое качество, другие ощущения</span>
+  </div>
+</footer>
+
+<div class="callbar">
+  <a class="btn btn-primary" href="tel:+998937000550"><span lang="uz">Qo‘ng‘iroq</span><span lang="ru">Позвонить</span></a>
+  <a class="btn btn-ghost" href="https://t.me/autoeffect" target="_blank" rel="noopener">Telegram</a>
+</div>
+
+<script src="app.js"></script>
+</body>
+</html>
